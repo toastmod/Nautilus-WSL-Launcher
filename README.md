@@ -6,4 +6,4 @@ Just copy the contents to wherever
 
 Create a shortcut to the Nautilus.bat and slap it on ya desktop
 
-Go ahead and set the shortcut's icon as the ico file i included for extra sauce ;)
+Go ahead and set the shortcut's icon as the ico file I included for extra sauce ;)
