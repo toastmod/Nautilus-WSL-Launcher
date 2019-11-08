@@ -1,5 +1,5 @@
 # Nautilus-WSL-Launcher
-A batch script for opening Nautilus in VcXsrv from WSL 
+A batch script for opening Nautilus (or other stuff) in VcXsrv from WSL 
 
 # How to use it (how I use it lol)
 Just copy the contents to wherever
