@@ -1,8 +1,8 @@
-tasklist /FI "IMAGENAME eq vcxsrv.exe"
+@ECHO OFF
 
-SET /A RESULT=%ERRORLEVEL%
+QPROCESS vcxsrv.exe >NUL
 
-IF "RESULT"=="0" (
+IF %ERRORLEVEL%==0 (
 	ECHO "===RUNNING==="
 	ubuntu run "export DISPLAY=:0 && nautilus"
 ) ELSE (
