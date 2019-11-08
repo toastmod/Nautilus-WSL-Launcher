@@ -2,7 +2,7 @@
 
 QPROCESS vcxsrv.exe >NUL
 
-IF %ERRORLEVEL%==0 ((
+IF %ERRORLEVEL%==0 (
 	ECHO "===RUNNING==="
 	ubuntu run "export DISPLAY=:0 && xterm"
 ) ELSE (
